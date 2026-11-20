@@ -1,0 +1,38 @@
+{
+  "name": "localhost-doctor",
+  "version": "1.0.0",
+  "description": "Diagnose your local development environment: Node.js and npm, busy ports and the processes using them, databases, .env files, dependencies and network.",
+  "bin": {
+    "localhost-doctor": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "cli",
+    "diagnostics",
+    "doctor",
+    "localhost",
+    "port",
+    "lsof",
+    "developer-tools",
+    "environment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
+}
